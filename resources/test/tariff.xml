@@ -1,0 +1,2453 @@
+<?xml version="1.0" standalone="yes"?>
+<bindings>
+	<binding action="EnGenero">
+		<Mappings>
+			<Mapping name="1.1.1e">
+				<TestData>
+					<UpdateImportTariffPrimaryElement>
+						<ElecTariffElements>
+							<CurrencyUnits>GBP</CurrencyUnits>
+							<SwitchingTable>
+								<DayProfiles>
+									<DayProfile>
+										<DayName>1</DayName>
+										<ProfileSchedule>
+											<StartTime>00:00:00.05Z</StartTime>
+											<TOUTariffAction>1</TOUTariffAction>
+										</ProfileSchedule>
+									</DayProfile>
+									<DayProfile>
+										<DayName>2</DayName>
+										<ProfileSchedule>
+											<StartTime>00:00:00.05Z</StartTime>
+											<TOUTariffAction>1</TOUTariffAction>
+										</ProfileSchedule>
+										<ProfileSchedule>
+											<StartTime>12:00:00.05Z</StartTime>
+											<TOUTariffAction>2</TOUTariffAction>
+										</ProfileSchedule>
+									</DayProfile>
+								</DayProfiles>
+								<WeekProfiles>
+									<WeekProfile>
+										<WeekName>1</WeekName>
+										<ReferencedDayName index="1">1</ReferencedDayName>
+										<ReferencedDayName index="2">1</ReferencedDayName>
+										<ReferencedDayName index="3">1</ReferencedDayName>
+										<ReferencedDayName index="4">1</ReferencedDayName>
+										<ReferencedDayName index="5">1</ReferencedDayName>
+										<ReferencedDayName index="6">2</ReferencedDayName>
+										<ReferencedDayName index="7">2</ReferencedDayName>
+									</WeekProfile>
+								</WeekProfiles>
+								<Seasons>
+									<Season>
+										<SeasonName>ALL</SeasonName>
+										<SeasonStartDate>
+											<Year>
+												<NonSpecifiedYear/>
+											</Year>
+											<Month>
+												<NonSpecifiedMonth/>
+											</Month>
+											<DayOfMonth>
+												<NonSpecifiedDayOfMonth/>
+											</DayOfMonth>
+											<DayOfWeek>
+												<NonSpecifiedDayOfWeek/>
+											</DayOfWeek>
+										</SeasonStartDate>
+										<ReferencedWeekName>1</ReferencedWeekName>
+									</Season>
+								</Seasons>
+							</SwitchingTable>
+							<SpecialDays>
+								<SpecialDay>
+									<Date>
+										<Year>
+											<SpecifiedYear>2015</SpecifiedYear>
+										</Year>
+										<Month>
+											<SpecifiedMonth>12</SpecifiedMonth>
+										</Month>
+										<DayOfMonth>
+											<SpecifiedDayOfMonth>25</SpecifiedDayOfMonth>
+										</DayOfMonth>
+										<DayOfWeek>
+											<NonSpecifiedDayOfWeek/>
+										</DayOfWeek>
+									</Date>
+									<ReferencedDayName>2</ReferencedDayName>
+								</SpecialDay>
+							</SpecialDays>
+							<ThresholdMatrix>
+								<Thresholds index="1">
+									<BlockThreshold index="1">0</BlockThreshold>
+								</Thresholds>
+								<Thresholds index="2">
+									<BlockThreshold index="1">0</BlockThreshold>
+								</Thresholds>
+								<Thresholds index="3">
+									<BlockThreshold index="1">0</BlockThreshold>
+								</Thresholds>
+								<Thresholds index="4">
+									<BlockThreshold index="1">0</BlockThreshold>
+								</Thresholds>
+								<Thresholds index="5">
+									<BlockThreshold index="1">0</BlockThreshold>
+								</Thresholds>
+								<Thresholds index="6">
+									<BlockThreshold index="1">0</BlockThreshold>
+								</Thresholds>
+								<Thresholds index="7">
+									<BlockThreshold index="1">0</BlockThreshold>
+								</Thresholds>
+								<Thresholds index="8">
+									<BlockThreshold index="1">0</BlockThreshold>
+								</Thresholds>
+							</ThresholdMatrix>
+						</ElecTariffElements>
+						<PriceElements>
+							<ElectricityPriceElements>
+								<StandingCharge>5000</StandingCharge>
+								<StandingChargeScale>-5</StandingChargeScale>
+								<PriceScale>-5</PriceScale>
+								<TOUTariff>
+									<TOUPrice index="1">7000</TOUPrice>
+									<TOUPrice index="2">8000</TOUPrice>
+									<TOUPrice index="3">9000</TOUPrice>
+								</TOUTariff>
+							</ElectricityPriceElements>
+						</PriceElements>
+					</UpdateImportTariffPrimaryElement>
+				</TestData>
+				<Operation>UpdateImportTariffPrimaryElement</Operation>
+			</Mapping>
+			<Mapping name="1.1.1g">
+				<TestData>
+					<UpdateImportTariffPrimaryElement>
+						<ExecutionDateTime>2016-12-03T16:18:00.00Z</ExecutionDateTime>
+						<GasTariffElements>
+							<SwitchingTable>
+								<DayProfiles>
+									<DayProfile>
+										<DayName>1</DayName>
+										<TOUTariffAction>1</TOUTariffAction>
+									</DayProfile>
+									<DayProfile>
+										<DayName>2</DayName>
+										<TOUTariffAction>2</TOUTariffAction>
+									</DayProfile>
+									<DayProfile>
+										<DayName>3</DayName>
+										<TOUTariffAction>3</TOUTariffAction>
+									</DayProfile>
+									<DayProfile>
+										<DayName>4</DayName>
+										<TOUTariffAction>4</TOUTariffAction>
+									</DayProfile>
+								</DayProfiles>
+								<WeekProfiles>
+									<WeekProfile>
+										<WeekName>1</WeekName>
+										<ReferencedDayName index="1">1</ReferencedDayName>
+										<ReferencedDayName index="2">1</ReferencedDayName>
+										<ReferencedDayName index="3">1</ReferencedDayName>
+										<ReferencedDayName index="4">1</ReferencedDayName>
+										<ReferencedDayName index="5">1</ReferencedDayName>
+										<ReferencedDayName index="6">2</ReferencedDayName>
+										<ReferencedDayName index="7">2</ReferencedDayName>
+									</WeekProfile>
+									<WeekProfile>
+										<WeekName>2</WeekName>
+										<ReferencedDayName index="1">3</ReferencedDayName>
+										<ReferencedDayName index="2">3</ReferencedDayName>
+										<ReferencedDayName index="3">3</ReferencedDayName>
+										<ReferencedDayName index="4">3</ReferencedDayName>
+										<ReferencedDayName index="5">3</ReferencedDayName>
+										<ReferencedDayName index="6">4</ReferencedDayName>
+										<ReferencedDayName index="7">4</ReferencedDayName>
+									</WeekProfile>
+								</WeekProfiles>
+								<Seasons>
+									<Season>
+										<SeasonStartDate>
+											<GasYearWithWildcards>
+												<NonSpecifiedYear />
+											</GasYearWithWildcards>
+											<GasMonthWithWildcards>
+												<SpecifiedMonth>3</SpecifiedMonth>
+											</GasMonthWithWildcards>
+											<GasDayOfMonthWithWildcards>
+												<SpecifiedDayOfMonth>20</SpecifiedDayOfMonth>
+											</GasDayOfMonthWithWildcards>
+											<GasDayOfWeekWithWildcards>
+												<NonSpecifiedDayOfWeek />
+											</GasDayOfWeekWithWildcards>
+										</SeasonStartDate>
+										<ReferencedWeekName>1</ReferencedWeekName>
+									</Season>
+									<Season>
+										<SeasonStartDate>
+											<GasYearWithWildcards>
+												<NonSpecifiedYear />
+											</GasYearWithWildcards>
+											<GasMonthWithWildcards>
+												<SpecifiedMonth>6</SpecifiedMonth>
+											</GasMonthWithWildcards>
+											<GasDayOfMonthWithWildcards>
+												<SpecifiedDayOfMonth>21</SpecifiedDayOfMonth>
+											</GasDayOfMonthWithWildcards>
+											<GasDayOfWeekWithWildcards>
+												<NonSpecifiedDayOfWeek />
+											</GasDayOfWeekWithWildcards>
+										</SeasonStartDate>
+										<ReferencedWeekName>2</ReferencedWeekName>
+									</Season>
+								</Seasons>
+							</SwitchingTable>
+							<SpecialDays>
+								<SpecialDay>
+									<Date>
+										<GasYearWithWildcards>
+											<SpecifiedYear>2015</SpecifiedYear>
+										</GasYearWithWildcards>
+										<GasMonthWithWildcards>
+											<SpecifiedMonth>1</SpecifiedMonth>
+										</GasMonthWithWildcards>
+										<GasDayOfMonthWithWildcards>
+											<SpecifiedDayOfMonth>1</SpecifiedDayOfMonth>
+										</GasDayOfMonthWithWildcards>
+										<GasDayOfWeekWithWildcards>
+											<NonSpecifiedDayOfWeek />
+										</GasDayOfWeekWithWildcards>
+									</Date>
+									<ReferencedDayName>2</ReferencedDayName>
+								</SpecialDay>
+								<SpecialDay>
+									<Date>
+										<GasYearWithWildcards>
+											<SpecifiedYear>2015</SpecifiedYear>
+										</GasYearWithWildcards>
+										<GasMonthWithWildcards>
+											<SpecifiedMonth>1</SpecifiedMonth>
+										</GasMonthWithWildcards>
+										<GasDayOfMonthWithWildcards>
+											<SpecifiedDayOfMonth>2</SpecifiedDayOfMonth>
+										</GasDayOfMonthWithWildcards>
+										<GasDayOfWeekWithWildcards>
+											<NonSpecifiedDayOfWeek />
+										</GasDayOfWeekWithWildcards>
+									</Date>
+									<ReferencedDayName>2</ReferencedDayName>
+								</SpecialDay>
+								<SpecialDay>
+									<Date>
+										<GasYearWithWildcards>
+											<SpecifiedYear>2015</SpecifiedYear>
+										</GasYearWithWildcards>
+										<GasMonthWithWildcards>
+											<SpecifiedMonth>3</SpecifiedMonth>
+										</GasMonthWithWildcards>
+										<GasDayOfMonthWithWildcards>
+											<SpecifiedDayOfMonth>1</SpecifiedDayOfMonth>
+										</GasDayOfMonthWithWildcards>
+										<GasDayOfWeekWithWildcards>
+											<NonSpecifiedDayOfWeek />
+										</GasDayOfWeekWithWildcards>
+									</Date>
+									<ReferencedDayName>2</ReferencedDayName>
+								</SpecialDay>
+								<SpecialDay>
+									<Date>
+										<GasYearWithWildcards>
+											<SpecifiedYear>2015</SpecifiedYear>
+										</GasYearWithWildcards>
+										<GasMonthWithWildcards>
+											<SpecifiedMonth>3</SpecifiedMonth>
+										</GasMonthWithWildcards>
+										<GasDayOfMonthWithWildcards>
+											<SpecifiedDayOfMonth>17</SpecifiedDayOfMonth>
+										</GasDayOfMonthWithWildcards>
+										<GasDayOfWeekWithWildcards>
+											<NonSpecifiedDayOfWeek />
+										</GasDayOfWeekWithWildcards>
+									</Date>
+									<ReferencedDayName>2</ReferencedDayName>
+								</SpecialDay>
+								<SpecialDay>
+									<Date>
+										<GasYearWithWildcards>
+											<SpecifiedYear>2015</SpecifiedYear>
+										</GasYearWithWildcards>
+										<GasMonthWithWildcards>
+											<SpecifiedMonth>4</SpecifiedMonth>
+										</GasMonthWithWildcards>
+										<GasDayOfMonthWithWildcards>
+											<SpecifiedDayOfMonth>3</SpecifiedDayOfMonth>
+										</GasDayOfMonthWithWildcards>
+										<GasDayOfWeekWithWildcards>
+											<NonSpecifiedDayOfWeek />
+										</GasDayOfWeekWithWildcards>
+									</Date>
+									<ReferencedDayName>2</ReferencedDayName>
+								</SpecialDay>
+								<SpecialDay>
+									<Date>
+										<GasYearWithWildcards>
+											<SpecifiedYear>2015</SpecifiedYear>
+										</GasYearWithWildcards>
+										<GasMonthWithWildcards>
+											<SpecifiedMonth>4</SpecifiedMonth>
+										</GasMonthWithWildcards>
+										<GasDayOfMonthWithWildcards>
+											<SpecifiedDayOfMonth>6</SpecifiedDayOfMonth>
+										</GasDayOfMonthWithWildcards>
+										<GasDayOfWeekWithWildcards>
+											<NonSpecifiedDayOfWeek />
+										</GasDayOfWeekWithWildcards>
+									</Date>
+									<ReferencedDayName>2</ReferencedDayName>
+								</SpecialDay>
+								<SpecialDay>
+									<Date>
+										<GasYearWithWildcards>
+											<SpecifiedYear>2015</SpecifiedYear>
+										</GasYearWithWildcards>
+										<GasMonthWithWildcards>
+											<SpecifiedMonth>4</SpecifiedMonth>
+										</GasMonthWithWildcards>
+										<GasDayOfMonthWithWildcards>
+											<SpecifiedDayOfMonth>23</SpecifiedDayOfMonth>
+										</GasDayOfMonthWithWildcards>
+										<GasDayOfWeekWithWildcards>
+											<NonSpecifiedDayOfWeek />
+										</GasDayOfWeekWithWildcards>
+									</Date>
+									<ReferencedDayName>2</ReferencedDayName>
+								</SpecialDay>
+								<SpecialDay>
+									<Date>
+										<GasYearWithWildcards>
+											<SpecifiedYear>2015</SpecifiedYear>
+										</GasYearWithWildcards>
+										<GasMonthWithWildcards>
+											<SpecifiedMonth>5</SpecifiedMonth>
+										</GasMonthWithWildcards>
+										<GasDayOfMonthWithWildcards>
+											<SpecifiedDayOfMonth>4</SpecifiedDayOfMonth>
+										</GasDayOfMonthWithWildcards>
+										<GasDayOfWeekWithWildcards>
+											<NonSpecifiedDayOfWeek />
+										</GasDayOfWeekWithWildcards>
+									</Date>
+									<ReferencedDayName>2</ReferencedDayName>
+								</SpecialDay>
+								<SpecialDay>
+									<Date>
+										<GasYearWithWildcards>
+											<SpecifiedYear>2015</SpecifiedYear>
+										</GasYearWithWildcards>
+										<GasMonthWithWildcards>
+											<SpecifiedMonth>5</SpecifiedMonth>
+										</GasMonthWithWildcards>
+										<GasDayOfMonthWithWildcards>
+											<SpecifiedDayOfMonth>9</SpecifiedDayOfMonth>
+										</GasDayOfMonthWithWildcards>
+										<GasDayOfWeekWithWildcards>
+											<NonSpecifiedDayOfWeek />
+										</GasDayOfWeekWithWildcards>
+									</Date>
+									<ReferencedDayName>2</ReferencedDayName>
+								</SpecialDay>
+								<SpecialDay>
+									<Date>
+										<GasYearWithWildcards>
+											<SpecifiedYear>2015</SpecifiedYear>
+										</GasYearWithWildcards>
+										<GasMonthWithWildcards>
+											<SpecifiedMonth>5</SpecifiedMonth>
+										</GasMonthWithWildcards>
+										<GasDayOfMonthWithWildcards>
+											<SpecifiedDayOfMonth>25</SpecifiedDayOfMonth>
+										</GasDayOfMonthWithWildcards>
+										<GasDayOfWeekWithWildcards>
+											<NonSpecifiedDayOfWeek />
+										</GasDayOfWeekWithWildcards>
+									</Date>
+									<ReferencedDayName>2</ReferencedDayName>
+								</SpecialDay>
+							</SpecialDays>
+							<ThresholdMatrix>
+								<!-- NOTE: This element is a mock element, it is not mapped from the payload. It is necessary for schema validation. -->
+								<BlockThreshold index="1">1</BlockThreshold>
+							</ThresholdMatrix>
+						</GasTariffElements>
+						<PriceElements>
+							<GasPriceElements>
+								<CurrencyUnits>GBP</CurrencyUnits>
+								<StandingCharge>22465</StandingCharge>
+								<TOUTariff>
+									<TOUPrice index="1">9600</TOUPrice>
+									<TOUPrice index="2">10200</TOUPrice>
+									<TOUPrice index="3">10750</TOUPrice>
+									<TOUPrice index="4">11000</TOUPrice>
+								</TOUTariff>
+							</GasPriceElements>
+						</PriceElements>
+					</UpdateImportTariffPrimaryElement>
+				</TestData>
+				<Operation>UpdateImportTariffPrimaryElement</Operation>
+			</Mapping>
+			<Mapping name="1.1.1i">
+				<TestData>
+					<UpdateImportTariffPrimaryElement>
+						<TariffEnGeneroLookupNode>
+							<KeyData>Tariff1700</KeyData>
+						</TariffEnGeneroLookupNode>
+						<PriceEnGeneroLookupNode>
+							<KeyData>PriceElement1700</KeyData>
+						</PriceEnGeneroLookupNode>
+					</UpdateImportTariffPrimaryElement>
+				</TestData>
+				<Operation>UpdateImportTariffPrimaryElement</Operation>
+			</Mapping>
+			<Mapping name="1.1.2e">
+				<TestData>
+					<UpdateImportTariffSecondaryElement>
+						<SwitchingTable>
+							<DayProfiles>
+								<DayProfile>
+									<DayName>1</DayName>
+									<ProfileSchedule>
+										<StartTime>00:00:00.05Z</StartTime>
+										<TOUTariffAction>1</TOUTariffAction>
+									</ProfileSchedule>
+								</DayProfile>
+								<DayProfile>
+									<DayName>2</DayName>
+									<ProfileSchedule>
+										<StartTime>00:00:00.05Z</StartTime>
+										<TOUTariffAction>1</TOUTariffAction>
+									</ProfileSchedule>
+									<ProfileSchedule>
+										<StartTime>12:00:00.05Z</StartTime>
+										<TOUTariffAction>2</TOUTariffAction>
+									</ProfileSchedule>
+								</DayProfile>
+							</DayProfiles>
+							<WeekProfiles>
+								<WeekProfile>
+									<WeekName>1</WeekName>
+									<ReferencedDayName index="1">1</ReferencedDayName>
+									<ReferencedDayName index="2">1</ReferencedDayName>
+									<ReferencedDayName index="3">1</ReferencedDayName>
+									<ReferencedDayName index="4">1</ReferencedDayName>
+									<ReferencedDayName index="5">1</ReferencedDayName>
+									<ReferencedDayName index="6">2</ReferencedDayName>
+									<ReferencedDayName index="7">2</ReferencedDayName>
+								</WeekProfile>
+							</WeekProfiles>
+							<Seasons>
+								<Season>
+									<SeasonName>ALL</SeasonName>
+									<SeasonStartDate>
+										<Year>
+											<NonSpecifiedYear/>
+										</Year>
+										<Month>
+											<NonSpecifiedMonth/>
+										</Month>
+										<DayOfMonth>
+											<NonSpecifiedDayOfMonth/>
+										</DayOfMonth>
+										<DayOfWeek>
+											<NonSpecifiedDayOfWeek/>
+										</DayOfWeek>
+									</SeasonStartDate>
+									<ReferencedWeekName>1</ReferencedWeekName>
+								</Season>
+							</Seasons>
+						</SwitchingTable>
+						<SpecialDays>
+							<SpecialDay>
+								<Date>
+									<Year>
+										<SpecifiedYear>2015</SpecifiedYear>
+									</Year>
+									<Month>
+										<SpecifiedMonth>12</SpecifiedMonth>
+									</Month>
+									<DayOfMonth>
+										<SpecifiedDayOfMonth>25</SpecifiedDayOfMonth>
+									</DayOfMonth>
+									<DayOfWeek>
+										<NonSpecifiedDayOfWeek/>
+									</DayOfWeek>
+								</Date>
+								<ReferencedDayName>2</ReferencedDayName>
+							</SpecialDay>
+						</SpecialDays>
+						<PriceElements>
+							<PriceScale>-5</PriceScale>
+							<ElectricityPriceElement index="1">1000</ElectricityPriceElement>
+							<ElectricityPriceElement index="2">3000</ElectricityPriceElement>
+						</PriceElements>
+					</UpdateImportTariffSecondaryElement>
+				</TestData>
+				<Operation>UpdateImportTariffSecondaryElement</Operation>
+			</Mapping>
+			<Mapping name="1.1.2i">
+				<TestData>
+					<UpdateImportTariffSecondaryElement>
+						<EnGeneroLookupNode>
+							<KeyData>Tariff1700</KeyData>
+						</EnGeneroLookupNode>
+					</UpdateImportTariffSecondaryElement>
+				</TestData>
+				<Operation>UpdateImportTariffSecondaryElement</Operation>
+			</Mapping>
+			<Mapping name="1.2e">
+				<TestData>
+					<UpdatePricePrimaryElement>
+						<PriceElements>
+							<ElectricityPriceElements>
+								<StandingCharge>5000</StandingCharge>
+								<StandingChargeScale>-5</StandingChargeScale>
+								<PriceScale>-5</PriceScale>
+								<TOUTariff>
+									<TOUPrice index="1">7000</TOUPrice>
+									<TOUPrice index="2">8000</TOUPrice>
+									<TOUPrice index="3">9000</TOUPrice>
+								</TOUTariff>
+							</ElectricityPriceElements>
+						</PriceElements>
+					</UpdatePricePrimaryElement>
+				</TestData>
+				<Operation>UpdatePricePrimaryElement</Operation>
+			</Mapping>
+			<Mapping name="1.2g">
+				<TestData>
+					<UpdatePricePrimaryElement>
+						<PriceElements>
+							<GasPriceElements>
+								<CurrencyUnits>GBP</CurrencyUnits>
+								<StandingCharge>5000</StandingCharge>
+								<BlockTariff>
+									<BlockPrice index="1">100</BlockPrice>
+									<BlockPrice index="2">200</BlockPrice>
+									<BlockPrice index="3">200</BlockPrice>
+									<NumberOfThresholds>2</NumberOfThresholds>
+								</BlockTariff>
+							</GasPriceElements>
+						</PriceElements>
+					</UpdatePricePrimaryElement>
+				</TestData>
+				<Operation>UpdatePricePrimaryElement</Operation>
+			</Mapping>
+			<Mapping name="1.2i">
+				<TestData>
+					<UpdatePricePrimaryElement>
+						<EnGeneroLookupNode>
+							<KeyData>Price123</KeyData>
+						</EnGeneroLookupNode>
+					</UpdatePricePrimaryElement>
+				</TestData>
+				<Operation>UpdatePricePrimaryElement</Operation>
+			</Mapping>
+			<Mapping name="1.5">
+				<TestData>
+					<UpdateMeterBalance>
+						<PrepaymentMode>
+							<AdjustMeterBalance>100000</AdjustMeterBalance>
+						</PrepaymentMode>
+					</UpdateMeterBalance>
+				</TestData>
+				<Operation>UpdateMeterBalance</Operation>
+			</Mapping>
+			<Mapping name="1.6">
+				<TestData>
+					<UpdatePaymentMode>
+						<Prepayment>
+							<SuspendDebtDisabled>true</SuspendDebtDisabled>
+							<SuspendDebtEmergency>true</SuspendDebtEmergency>
+							<DisablementThreshold>10000</DisablementThreshold>
+						</Prepayment>
+					</UpdatePaymentMode>
+				</TestData>
+				<Operation>UpdatePaymentMode</Operation>
+			</Mapping>
+			<Mapping name="1.7">
+				<TestData>
+					<ResetTariffBlockCounterMatrix/>
+				</TestData>
+				<Operation>ResetTariffBlockCounterMatrix</Operation>
+			</Mapping>
+			<Mapping name="2.1e">
+				<TestData>
+					<UpdatePrepayConfiguration>
+						<UpdatePrepayConfigElectricity>
+							<DebtRecoveryRateCap>50</DebtRecoveryRateCap>
+							<EmergencyCreditLimit>50</EmergencyCreditLimit>
+							<EmergencyCreditThreshold>50</EmergencyCreditThreshold>
+							<LowCreditThreshold>50</LowCreditThreshold>
+							<ElectricityNonDisablementCalendar>
+								<ElectricitySpecialDays>
+									<SpecialDay index="1">
+										<Date>
+											<Year>
+												<NonSpecifiedYear/>
+											</Year>
+											<Month>
+												<SpecifiedMonth>12</SpecifiedMonth>
+											</Month>
+											<DayOfMonth>
+												<SpecifiedDayOfMonth>25</SpecifiedDayOfMonth>
+											</DayOfMonth>
+											<DayOfWeek>
+												<NonSpecifiedDayOfWeek/>
+											</DayOfWeek>
+										</Date>
+									</SpecialDay>
+								</ElectricitySpecialDays>
+								<ElectricityNonDisablementSchedule>
+									<NonDisablementScript>START</NonDisablementScript>
+									<SpecialDaysApplicability>
+										<SpecialDayApplicability>
+											<SpecialDayID>1</SpecialDayID>
+										</SpecialDayApplicability>
+									</SpecialDaysApplicability>
+									<DaysOfWeekApplicability>
+										<DayOfWeekApplicability>
+											<DayOfWeekID>Sunday</DayOfWeekID>
+										</DayOfWeekApplicability>
+									</DaysOfWeekApplicability>
+									<ScheduleDatesAndTime>
+										<SwitchTime>00:00:00.05Z</SwitchTime>
+										<StartDate>2015-09-07Z</StartDate>
+										<EndDate>2020-12-31Z</EndDate>
+									</ScheduleDatesAndTime>
+								</ElectricityNonDisablementSchedule>
+								<ElectricityNonDisablementSchedule>
+									<NonDisablementScript>STOP</NonDisablementScript>
+									<SpecialDaysApplicability>
+										<SpecialDayApplicability>
+											<SpecialDayID>1</SpecialDayID>
+										</SpecialDayApplicability>
+									</SpecialDaysApplicability>
+									<DaysOfWeekApplicability>
+										<DayOfWeekApplicability>
+											<DayOfWeekID>Sunday</DayOfWeekID>
+										</DayOfWeekApplicability>
+									</DaysOfWeekApplicability>
+									<ScheduleDatesAndTime>
+										<SwitchTime>23:59:59.05Z</SwitchTime>
+										<StartDate>2015-09-07</StartDate>
+										<EndDate>2020-12-31Z</EndDate>
+									</ScheduleDatesAndTime>
+								</ElectricityNonDisablementSchedule>
+							</ElectricityNonDisablementCalendar>
+							<MaxMeterBalance>50</MaxMeterBalance>
+							<MaxCreditThreshold>50</MaxCreditThreshold>
+						</UpdatePrepayConfigElectricity>
+					</UpdatePrepayConfiguration>
+				</TestData>
+				<Operation>UpdatePrepayConfiguration</Operation>
+			</Mapping>
+			<Mapping name="2.1g">
+				<TestData>
+					<UpdatePrepayConfiguration>
+						<UpdatePrepayConfigGas>
+							<DebtRecoveryRateCap>50</DebtRecoveryRateCap>
+							<EmergencyCreditLimit>50</EmergencyCreditLimit>
+							<EmergencyCreditThreshold>50</EmergencyCreditThreshold>
+							<LowCreditThreshold>50</LowCreditThreshold>
+							<GasNonDisablementCalendar>
+								<DayProfiles>
+									<GasNonDisablementDayProfile>
+										<TimeStartAction>
+											<StartTime>00:00:00.05Z</StartTime>
+											<NonDisablementAction>START</NonDisablementAction>
+										</TimeStartAction>
+										<TimeStartAction>
+											<StartTime>07:00:00.05Z</StartTime>
+											<NonDisablementAction>STOP</NonDisablementAction>
+										</TimeStartAction>
+										<TimeStartAction>
+											<StartTime>22:00:00.05Z</StartTime>
+											<NonDisablementAction>START</NonDisablementAction>
+										</TimeStartAction>
+										<GasDayName>1</GasDayName>
+									</GasNonDisablementDayProfile>
+									<GasNonDisablementDayProfile>
+										<TimeStartAction>
+											<StartTime>00:00:00.05Z</StartTime>
+											<NonDisablementAction>START</NonDisablementAction>
+										</TimeStartAction>
+										<TimeStartAction>
+											<StartTime>23:59:59.05Z</StartTime>
+											<NonDisablementAction>STOP</NonDisablementAction>
+										</TimeStartAction>
+										<GasDayName>2</GasDayName>
+									</GasNonDisablementDayProfile>
+								</DayProfiles>
+								<WeekProfiles>
+									<WeekProfile>
+										<WeekName>1</WeekName>
+										<ReferencedDayName index="1">1</ReferencedDayName>
+										<ReferencedDayName index="2">1</ReferencedDayName>
+										<ReferencedDayName index="3">1</ReferencedDayName>
+										<ReferencedDayName index="4">1</ReferencedDayName>
+										<ReferencedDayName index="5">1</ReferencedDayName>
+										<ReferencedDayName index="6">2</ReferencedDayName>
+										<ReferencedDayName index="7">2</ReferencedDayName>
+									</WeekProfile>
+								</WeekProfiles>
+								<SeasonProfiles>
+									<Season>
+										<SeasonStartDate>
+											<GasYearWithWildcards>
+												<SpecifiedYear>2015</SpecifiedYear>
+											</GasYearWithWildcards>
+											<GasMonthWithWildcards>
+												<SpecifiedMonth>12</SpecifiedMonth>
+											</GasMonthWithWildcards>
+											<GasDayOfMonthWithWildcards>
+												<SpecifiedDayOfMonth>1</SpecifiedDayOfMonth>
+											</GasDayOfMonthWithWildcards>
+											<GasDayOfWeekWithWildcards>
+												<NonSpecifiedDayOfWeek/>
+											</GasDayOfWeekWithWildcards>
+										</SeasonStartDate>
+										<ReferencedWeekName>1</ReferencedWeekName>
+									</Season>
+								</SeasonProfiles>
+								<SpecialDays>
+									<SpecialDay>
+										<Date>
+											<GasYearWithWildcards>
+												<NonSpecifiedYear/>
+											</GasYearWithWildcards>
+											<GasMonthWithWildcards>
+												<SpecifiedMonth>12</SpecifiedMonth>
+											</GasMonthWithWildcards>
+											<GasDayOfMonthWithWildcards>
+												<SpecifiedDayOfMonth>25</SpecifiedDayOfMonth>
+											</GasDayOfMonthWithWildcards>
+											<GasDayOfWeekWithWildcards>
+												<NonSpecifiedDayOfWeek/>
+											</GasDayOfWeekWithWildcards>
+										</Date>
+										<ReferencedDayName>2</ReferencedDayName>
+									</SpecialDay>
+								</SpecialDays>
+							</GasNonDisablementCalendar>
+							<MaxMeterBalance>50</MaxMeterBalance>
+							<MaxCreditThreshold>50</MaxCreditThreshold>
+						</UpdatePrepayConfigGas>
+					</UpdatePrepayConfiguration>
+				</TestData>
+				<Operation>UpdatePrepayConfiguration</Operation>
+			</Mapping>
+			<Mapping name="2.1i">
+				<TestData>
+					<UpdatePrepayConfiguration>
+						<EnGeneroLookupNode>
+							<KeyData>Prepay0001</KeyData>
+						</EnGeneroLookupNode>
+					</UpdatePrepayConfiguration>
+				</TestData>
+				<Operation>UpdatePrepayConfiguration</Operation>
+			</Mapping>
+			<Mapping name="2.2">
+				<TestData>
+					<TopUpDevice>
+						<UTRN>75345678901234567893</UTRN>
+					</TopUpDevice>
+				</TestData>
+				<Operation>TopUpDevice</Operation>
+			</Mapping>
+			<Mapping name="2.3e">
+				<TestData>
+					<UpdateDebt>
+						<TimeDebtRegister1>10000</TimeDebtRegister1>
+						<TimeDebtRegister2>17000</TimeDebtRegister2>
+						<PaymentDebtRegister>5000</PaymentDebtRegister>
+						<DebtRecoveryPerPayment>200</DebtRecoveryPerPayment>
+						<ElecDebtRecovery1>
+							<DebtRecoveryRate>12345</DebtRecoveryRate>
+							<DebtRecoveryRatePriceScale>-5</DebtRecoveryRatePriceScale>
+							<DebtRecoveryRatePeriod>WEEKLY</DebtRecoveryRatePeriod>
+						</ElecDebtRecovery1>
+						<ElecDebtRecovery2>
+							<DebtRecoveryRate>25678</DebtRecoveryRate>
+							<DebtRecoveryRatePriceScale>-5</DebtRecoveryRatePriceScale>
+							<DebtRecoveryRatePeriod>DAILY</DebtRecoveryRatePeriod>
+						</ElecDebtRecovery2>
+					</UpdateDebt>
+				</TestData>
+				<Operation>UpdateDebt</Operation>
+			</Mapping>
+			<Mapping name="2.3g">
+				<TestData>
+					<UpdateDebt>
+						<TimeDebtRegister1>10000</TimeDebtRegister1>
+						<TimeDebtRegister2>17000</TimeDebtRegister2>
+						<PaymentDebtRegister>5000</PaymentDebtRegister>
+						<DebtRecoveryPerPayment>200</DebtRecoveryPerPayment>
+						<GasDebtRecovery1>
+							<DebtRecoveryRate>12345</DebtRecoveryRate>
+							<DebtRecoveryRatePeriod>HOURLY</DebtRecoveryRatePeriod>
+						</GasDebtRecovery1>
+						<GasDebtRecovery2>
+							<DebtRecoveryRate>25678</DebtRecoveryRate>
+							<DebtRecoveryRatePeriod>DAILY</DebtRecoveryRatePeriod>
+						</GasDebtRecovery2>
+					</UpdateDebt>
+				</TestData>
+				<Operation>UpdateDebt</Operation>
+			</Mapping>
+				<Mapping name="2.3i">
+				<TestData>
+					<UpdateDebt>
+						<EnGeneroLookupNode>
+							<KeyData>Debt0001</KeyData>
+						</EnGeneroLookupNode>
+					</UpdateDebt>
+				</TestData>
+				<Operation>UpdateDebt</Operation>
+			</Mapping>
+			<Mapping name="2.5">
+				<TestData>
+					<ActivateEmergencyCredit/>
+				</TestData>
+				<Operation>ActivateEmergencyCredit</Operation>
+			</Mapping>
+			<Mapping name="3.1">
+				<TestData>
+					<DisplayMessage>
+						<SupplierMessage>Supplier Message 1</SupplierMessage>
+					</DisplayMessage>
+				</TestData>
+				<Operation>DisplayMessage</Operation>
+			</Mapping>
+
+			<Mapping name="3.2">
+				<TestData>
+					<RestrictAccessForChangeOfTenancy>
+						<RestrictionDateTime>2017-01-01T18:13:51.05Z</RestrictionDateTime>
+					</RestrictAccessForChangeOfTenancy>
+				</TestData>
+				<Operation>RestrictAccessForChangeOfTenancy</Operation>
+			</Mapping>
+
+			<Mapping name="3.3">
+				<TestData>
+					<ClearEventLog/>
+				</TestData>
+				<Operation>ClearEventLog</Operation>
+			</Mapping>
+
+			<Mapping name="3.4">
+				<TestData>
+					<UpdateSupplierName>
+						<ExecutionDateTime>2014-10-24T04:03:05.05Z</ExecutionDateTime>
+						<SupplierName>Supplier Name 1</SupplierName>
+						<SupplierTelephoneNumber>0123 456 789</SupplierTelephoneNumber>
+					</UpdateSupplierName>
+				</TestData>
+				<Operation>UpdateSupplierName</Operation>
+			</Mapping>
+
+			<Mapping name="3.5">
+				<TestData>
+					<DisablePrivacyPIN/>
+				</TestData>
+				<Operation>DisablePrivacyPIN</Operation>
+			</Mapping>
+
+			<Mapping name="4.1.1">
+				<TestData>
+					<ReadInstantaneousImportRegisters/>
+				</TestData>
+				<Operation>ReadInstantaneousImportRegisters</Operation>
+			</Mapping>
+
+			<Mapping name="4.1.2">
+				<TestData>
+					<ReadInstantaneousImportTOUMatrices/>
+				</TestData>
+				<Operation>ReadInstantaneousImportTOUMatrices</Operation>
+			</Mapping>ReadInstantaneousImportBlockCounters
+
+			<Mapping name="4.1.3">
+				<TestData>
+					<ReadInstantaneousImportTOUWithBlocksMatrices/>
+				</TestData>
+				<Operation>ReadInstantaneousImportTOUWithBlocksMatrices</Operation>
+			</Mapping>
+
+			<Mapping name="4.1.4">
+				<TestData>
+					<ReadInstantaneousImportBlockCounters/>
+				</TestData>
+				<Operation>ReadInstantaneousImportBlockCounters</Operation>
+			</Mapping>
+
+			<Mapping name="4.2">
+				<TestData>
+					<ReadInstantaneousExportRegisters/>
+				</TestData>
+				<Operation>ReadInstantaneousExportRegisters</Operation>
+			</Mapping>
+
+			<Mapping name="4.3">
+				<TestData>
+					<ReadInstantaneousPrepayValues/>
+				</TestData>
+				<Operation>ReadInstantaneousPrepayValues</Operation>
+			</Mapping>
+
+			<Mapping name="4.4.2">
+				<TestData>
+					<RetrieveCoMOrTariffTriggeredBillingDataLog>
+						<ReadLogPeriod>
+							<StartDateTime>2014-01-01T00:00:00.05Z</StartDateTime>
+							<EndDateTime>2014-01-31T23:59:59.05Z</EndDateTime>
+						</ReadLogPeriod>
+					</RetrieveCoMOrTariffTriggeredBillingDataLog>
+				</TestData>
+				<Operation>RetrieveCoMOrTariffTriggeredBillingDataLog</Operation>
+			</Mapping>
+
+			<Mapping name="4.4.3">
+				<TestData>
+					<RetrieveBillingCalendarTriggeredBillingDataLog>
+						<ReadLogPeriod>
+							<StartDateTime>2014-01-01T00:00:00.05Z</StartDateTime>
+							<EndDateTime>2014-01-31T23:59:59.05Z</EndDateTime>
+						</ReadLogPeriod>
+					</RetrieveBillingCalendarTriggeredBillingDataLog>
+				</TestData>
+				<Operation>RetrieveBillingCalendarTriggeredBillingDataLog</Operation>
+			</Mapping>
+
+			<Mapping name="4.4.4">
+				<TestData>
+					<RetrieveBillingDataLogDebtPayments>
+						<ReadLogPeriod>
+							<StartDateTime>2014-01-01T00:00:00.05Z</StartDateTime>
+							<EndDateTime>2014-01-31T23:59:59.05Z</EndDateTime>
+						</ReadLogPeriod>
+					</RetrieveBillingDataLogDebtPayments>
+				</TestData>
+				<Operation>RetrieveBillingDataLogDebtPayments</Operation>
+			</Mapping>
+
+			<Mapping name="4.4.5">
+				<TestData>
+					<RetrieveBillingDataLogPrepaymentCredits>
+						<ReadLogPeriod>
+							<StartDateTime>2014-01-01T00:00:00.05Z</StartDateTime>
+							<EndDateTime>2014-01-31T23:59:59.05Z</EndDateTime>
+						</ReadLogPeriod>
+					</RetrieveBillingDataLogPrepaymentCredits>
+				</TestData>
+				<Operation>RetrieveBillingDataLogPrepaymentCredits</Operation>
+			</Mapping>
+
+			<Mapping name="4.6.1">
+				<TestData>
+					<RetrieveImportDailyReadLog>
+						<ReadLogPeriod>
+							<StartDateTime>2014-01-01T00:00:00.05Z</StartDateTime>
+							<EndDateTime>2014-01-31T23:59:59.05Z</EndDateTime>
+						</ReadLogPeriod>
+					</RetrieveImportDailyReadLog>
+				</TestData>
+				<Operation>RetrieveImportDailyReadLog</Operation>
+			</Mapping>
+
+			<Mapping name="4.6.2">
+				<TestData>
+					<RetrieveExportDailyReadLog>
+						<ReadLogPeriod>
+							<StartDateTime>2014-01-01T00:00:00.05Z</StartDateTime>
+							<EndDateTime>2014-01-31T23:59:59.05Z</EndDateTime>
+						</ReadLogPeriod>
+					</RetrieveExportDailyReadLog>
+				</TestData>
+				<Operation>RetrieveExportDailyReadLog</Operation>
+			</Mapping>
+
+			<Mapping name="4.8.1">
+				<TestData>
+					<ReadActiveImportProfileData>
+						<ReadLogPeriod>
+							<StartDateTime>2014-01-01T00:00:00.05Z</StartDateTime>
+							<EndDateTime>2014-01-31T23:59:59.05Z</EndDateTime>
+						</ReadLogPeriod>
+					</ReadActiveImportProfileData>
+				</TestData>
+				<Operation>ReadActiveImportProfileData</Operation>
+			</Mapping>
+
+			<Mapping name="4.8.2">
+				<TestData>
+					<ReadReactiveImportProfileData>
+						<ReadLogPeriod>
+							<StartDateTime>2014-01-01T00:00:00.05Z</StartDateTime>
+							<EndDateTime>2014-01-31T23:59:59.05Z</EndDateTime>
+						</ReadLogPeriod>
+					</ReadReactiveImportProfileData>
+				</TestData>
+				<Operation>ReadReactiveImportProfileData</Operation>
+			</Mapping>
+
+			<Mapping name="4.8.3">
+				<TestData>
+					<ReadExportProfileData>
+						<ReadLogPeriod>
+							<StartDateTime>2014-01-01T00:00:00.05Z</StartDateTime>
+							<EndDateTime>2014-01-31T23:59:59.05Z</EndDateTime>
+						</ReadLogPeriod>
+					</ReadExportProfileData>
+				</TestData>
+				<Operation>ReadExportProfileData</Operation>
+			</Mapping>
+
+			<Mapping name="4.10">
+				<TestData>
+					<ReadNetworkData>
+						<ReadLogPeriod>
+							<StartDateTime>2014-01-01T00:00:00.05Z</StartDateTime>
+							<EndDateTime>2014-01-31T23:59:59.05Z</EndDateTime>
+						</ReadLogPeriod>
+					</ReadNetworkData>
+				</TestData>
+				<Operation>ReadNetworkData</Operation>
+			</Mapping>
+
+			<Mapping name="4.11.1">
+				<TestData>
+					<ReadTariffPrimaryElement/>
+				</TestData>
+				<Operation>ReadTariffPrimaryElement</Operation>
+			</Mapping>
+
+			<Mapping name="4.11.2">
+				<TestData>
+					<ReadTariffSecondaryElement/>
+				</TestData>
+				<Operation>ReadTariffSecondaryElement</Operation>
+			</Mapping>
+
+			<Mapping name="4.12.1">
+				<TestData>
+					<ReadMaximumDemandImportRegisters>
+						<ExecutionDateTime>2014-05-01T02:05:00.05Z</ExecutionDateTime>
+					</ReadMaximumDemandImportRegisters>
+				</TestData>
+				<Operation>ReadMaximumDemandImportRegisters</Operation>
+			</Mapping>
+
+			<Mapping name="4.12.2">
+				<TestData>
+					<ReadMaximumDemandExportRegisters>
+						<ExecutionDateTime>2014-05-01T02:05:00.05Z</ExecutionDateTime>
+					</ReadMaximumDemandExportRegisters>
+				</TestData>
+				<Operation>ReadMaximumDemandExportRegisters</Operation>
+			</Mapping>
+
+			<Mapping name="4.13">
+				<TestData>
+					<ReadPrepaymentConfiguration/>
+				</TestData>
+				<Operation>ReadMaximumDemandExportRegisters</Operation>
+			</Mapping>
+
+			<Mapping name="4.14">
+				<TestData>
+					<ReadPrepaymentDailyReadLog>
+						<ReadLogPeriod>
+							<StartDateTime>2014-01-01T00:00:00.05Z</StartDateTime>
+							<EndDateTime>2014-01-31T23:59:59.05Z</EndDateTime>
+						</ReadLogPeriod>
+					</ReadPrepaymentDailyReadLog>
+				</TestData>
+				<Operation>ReadPrepaymentDailyReadLog</Operation>
+			</Mapping>
+
+			<Mapping name="4.15">
+				<TestData>
+					<ReadLoadLimitData>
+						<ExecutionDateTime>2014-03-01T02:00:00.05Z</ExecutionDateTime>
+					</ReadLoadLimitData>
+				</TestData>
+				<Operation>ReadLoadLimitData</Operation>
+			</Mapping>
+
+			<Mapping name="4.16">
+				<TestData>
+					<ReadActivePowerImport/>
+				</TestData>
+				<Operation>ReadActivePowerImport</Operation>
+			</Mapping>
+
+			<Mapping name="4.17">
+				<TestData>
+					<RetrieveDailyConsumptionLog>
+						<ReadLogPeriod>
+							<StartDateTime>2014-01-01T00:00:00.05Z</StartDateTime>
+							<EndDateTime>2014-01-31T23:59:59.05Z</EndDateTime>
+						</ReadLogPeriod>
+					</RetrieveDailyConsumptionLog>
+				</TestData>
+				<Operation>RetrieveDailyConsumptionLog</Operation>
+			</Mapping>
+
+			<Mapping name="4.18">
+				<TestData>
+					<ReadMeterBalance/>
+				</TestData>
+				<Operation>ReadMeterBalance</Operation>
+			</Mapping>
+
+			<Mapping name="5.1">
+				<TestData>
+					<CreateSchedule>
+						<ScheduleFrequency>Weekly</ScheduleFrequency>
+						<ScheduleStartDate>2015-01-31Z</ScheduleStartDate>
+						<DSPScheduledServiceReference>4.8</DSPScheduledServiceReference>
+						<DSPScheduledServiceReferenceVariant>4.8.1</DSPScheduledServiceReferenceVariant>
+						<DSPReadActiveImportProfileData>
+							<StartDateOffset>-7</StartDateOffset>
+							<StartTime>00:00:00.05Z</StartTime>
+							<EndDateOffset>0</EndDateOffset>
+							<EndTime>23:59:59.05Z</EndTime>
+						</DSPReadActiveImportProfileData>
+					</CreateSchedule>
+				</TestData>
+				<Operation>CreateSchedule</Operation>
+			</Mapping>
+
+			<Mapping name="5.1i">
+				<TestData>
+					<CreateSchedule>
+						<EnGeneroLookupNode>
+							<KeyData>Schedule0001</KeyData>
+						</EnGeneroLookupNode>
+					</CreateSchedule>
+				</TestData>
+				<Operation>CreateSchedule</Operation>
+			</Mapping>
+
+			<Mapping name="5.2">
+				<TestData>
+					<ReadSchedule>
+						<DSPScheduleID>500</DSPScheduleID>
+					</ReadSchedule>
+				</TestData>
+				<Operation>ReadSchedule</Operation>
+			</Mapping>
+
+			<Mapping name="5.3">
+				<TestData>
+					<DeleteSchedule>
+						<DSPScheduleID>500</DSPScheduleID>
+					</DeleteSchedule>
+				</TestData>
+				<Operation>DeleteSchedule</Operation>
+			</Mapping>
+
+
+			<Mapping name="6.2.1">
+				<TestData>
+					<ReadDeviceConfigurationVoltage/>
+				</TestData>
+				<Operation>ReadDeviceConfigurationVoltage</Operation>
+			</Mapping>
+
+			<Mapping name="6.2.2">
+				<TestData>
+					<ReadDeviceConfigurationRandomisation/>
+				</TestData>
+				<Operation>ReadDeviceConfigurationRandomisation</Operation>
+			</Mapping>
+
+			<Mapping name="6.2.3">
+				<TestData>
+					<ReadDeviceConfigurationBillingCalendar/>
+				</TestData>
+				<Operation>ReadDeviceConfigurationBillingCalendar</Operation>
+			</Mapping>
+
+			<Mapping name="6.2.4">
+				<TestData>
+					<ReadDeviceConfigurationIdentityExcMPxN/>
+				</TestData>
+				<Operation>ReadDeviceConfigurationIdentityExcMPxN</Operation>
+			</Mapping>
+
+			<Mapping name="6.2.5">
+				<TestData>
+					<ReadDeviceConfigurationInstantaneousPowerThresholds/>
+				</TestData>
+				<Operation>ReadDeviceConfigurationInstantaneousPowerThresholds</Operation>
+			</Mapping>
+
+			<Mapping name="6.2.7">
+				<TestData>
+					<ReadDeviceConfigurationMPxN/>
+				</TestData>
+				<Operation>ReadDeviceConfigurationMPxN</Operation>
+			</Mapping>
+
+			<Mapping name="6.2.8">
+				<TestData>
+					<ReadDeviceConfigurationGas/>
+				</TestData>
+				<Operation>ReadDeviceConfigurationGas</Operation>
+			</Mapping>
+
+			<Mapping name="6.2.9">
+				<TestData>
+					<ReadDeviceConfigurationPaymentMode/>
+				</TestData>
+				<Operation>ReadDeviceConfigurationPaymentMode</Operation>
+			</Mapping>
+
+			<Mapping name="6.4.1">
+				<TestData>
+					<UpdateDeviceConfigurationLoadLimitingGeneralSettings>
+						<LoadLimitPeriod>300</LoadLimitPeriod>
+						<LoadLimitPowerThreshold>10</LoadLimitPowerThreshold>
+						<LoadLimitRestorationPeriod>600</LoadLimitRestorationPeriod>
+						<LoadLimitSupplyState>Unchanged</LoadLimitSupplyState>
+					</UpdateDeviceConfigurationLoadLimitingGeneralSettings>
+				</TestData>
+				<Operation>UpdateDeviceConfigurationLoadLimitingGeneralSettings</Operation>
+			</Mapping>
+
+			<Mapping name="6.4.2">
+				<TestData>
+					<UpdateDeviceConfigurationLoadLimitingCounterReset/>
+				</TestData>
+				<Operation>UpdateDeviceConfigurationLoadLimitingCounterReset</Operation>
+			</Mapping>
+
+			<Mapping name="6.5.1">
+				<TestData>
+					<UpdateDeviceConfigurationVoltage>
+						<RMSVoltageSettings>
+							<RMSExtremeOverVoltageMeasurementPeriod>120</RMSExtremeOverVoltageMeasurementPeriod>
+							<RMSExtremeOverVoltageThreshold>100</RMSExtremeOverVoltageThreshold>
+							<RMSExtremeUnderVoltageMeasurementPeriod>120</RMSExtremeUnderVoltageMeasurementPeriod>
+							<RMSExtremeUnderVoltageThreshold>5</RMSExtremeUnderVoltageThreshold>
+							<RMSVoltageSagMeasurementPeriod>120</RMSVoltageSagMeasurementPeriod>
+							<RMSVoltageSagThreshold>5</RMSVoltageSagThreshold>
+							<RMSVoltageSwellMeasurementPeriod>120</RMSVoltageSwellMeasurementPeriod>
+							<RMSVoltageSwellThreshold>50</RMSVoltageSwellThreshold>
+						</RMSVoltageSettings>
+						<SinglePhaseVoltageSettings>
+							<AverageRMSOverVoltageThreshold>0</AverageRMSOverVoltageThreshold>
+							<AverageRMSUnderVoltageThreshold>0</AverageRMSUnderVoltageThreshold>
+							<AverageRMSVoltageMeasurementPeriod>120</AverageRMSVoltageMeasurementPeriod>
+						</SinglePhaseVoltageSettings>
+					</UpdateDeviceConfigurationVoltage>
+				</TestData>
+				<Operation>UpdateDeviceConfigurationVoltage</Operation>
+			</Mapping>
+
+			<Mapping name="6.5.1i">
+				<TestData>
+					<UpdateDeviceConfigurationVoltage>
+						<EnGeneroLookupNode>
+							<KeyData>Voltage0001</KeyData>
+						</EnGeneroLookupNode>
+					</UpdateDeviceConfigurationVoltage>
+				</TestData>
+				<Operation>UpdateDeviceConfigurationVoltage</Operation>
+			</Mapping>
+
+			<Mapping name="6.6.1">
+				<TestData>
+					<UpdateDeviceConfigurationGasConversion>
+						<CalorificValue>40.1</CalorificValue>
+						<ConversionFactor>1.23456</ConversionFactor>
+					</UpdateDeviceConfigurationGasConversion>
+				</TestData>
+				<Operation>UpdateDeviceConfigurationGasConversion</Operation>
+			</Mapping>
+
+			<Mapping name="6.7.1">
+				<TestData>
+					<UpdateDeviceConfigurationGasFlow>
+						<UncontrolledGasFlowRate>3</UncontrolledGasFlowRate>
+						<SupplyDepletionState>Unchanged</SupplyDepletionState>
+						<SupplyTamperState>Locked</SupplyTamperState>
+						<StabilisationPeriod>60</StabilisationPeriod>
+						<MeasurementPeriod>300</MeasurementPeriod>
+					</UpdateDeviceConfigurationGasFlow>
+				</TestData>
+				<Operation>UpdateDeviceConfigurationGasFlow</Operation>
+			</Mapping>
+
+			<Mapping name="6.8.1e">
+				<TestData>
+					<UpdateDeviceConfigurationBillingCalendar>
+						<ElectricityBillingCalendar>
+							<BillingTime>00:05:00.05Z</BillingTime>
+							<Daily/>
+						</ElectricityBillingCalendar>
+					</UpdateDeviceConfigurationBillingCalendar>
+				</TestData>
+				<Operation>UpdateDeviceConfigurationBillingCalendar</Operation>
+			</Mapping>
+
+			<Mapping name="6.8.1g">
+				<TestData>
+					<UpdateDeviceConfigurationBillingCalendar>
+						<GasBillingCalendar>
+							<BillingPeriodStart>2015-01-01T00:05:00.05Z</BillingPeriodStart>
+							<Periodicity>Daily</Periodicity>
+						</GasBillingCalendar>
+					</UpdateDeviceConfigurationBillingCalendar>
+				</TestData>
+				<Operation>UpdateDeviceConfigurationBillingCalendar</Operation>
+			</Mapping>
+
+			<Mapping name="6.11">
+				<TestData>
+					<SynchroniseClock>
+						<CurrentDateTime>2014-06-03T07:09:12.05Z</CurrentDateTime>
+						<TolerancePeriod>50</TolerancePeriod>
+					</SynchroniseClock>
+				</TestData>
+				<Operation>SynchroniseClock</Operation>
+			</Mapping>
+
+			<Mapping name="6.12">
+				<TestData>
+					<UpdateDeviceConfigurationInstantaneousPowerThreshold>
+						<LowMediumPowerThreshold>3</LowMediumPowerThreshold>
+						<MediumHighPowerThreshold>10</MediumHighPowerThreshold>
+					</UpdateDeviceConfigurationInstantaneousPowerThreshold>
+				</TestData>
+				<Operation>UpdateDeviceConfigurationInstantaneousPowerThreshold</Operation>
+			</Mapping>
+
+			<Mapping name="6.13">
+				<TestData>
+					<ReadEventOrSecurityLog>
+						<ReadLogPeriod>
+							<StartDateTime>2014-01-01T00:00:00.05Z</StartDateTime>
+							<EndDateTime>2014-01-31T23:59:59.05Z</EndDateTime>
+						</ReadLogPeriod>
+						<LogToRead>Event</LogToRead>
+					</ReadEventOrSecurityLog>
+				</TestData>
+				<Operation>ReadEventOrSecurityLog</Operation>
+			</Mapping>
+
+			<Mapping name="6.14.1">
+				<TestData>
+					<UpdateDeviceConfigurationALCDescriptions>
+						<ALCSHCALCSDescription index="1">
+							<SwitchDescription>Switch 1 Description</SwitchDescription>
+						</ALCSHCALCSDescription>
+					</UpdateDeviceConfigurationALCDescriptions>
+				</TestData>
+				<Operation>UpdateDeviceConfigurationALCDescriptions</Operation>
+			</Mapping>
+
+			<Mapping name="6.14.1i">
+				<TestData>
+					<UpdateDeviceConfigurationALCDescriptions>
+						<EnGeneroLookupNode>
+							<KeyData>Config0001</KeyData>
+						</EnGeneroLookupNode>
+					</UpdateDeviceConfigurationALCDescriptions>
+				</TestData>
+				<Operation>UpdateDeviceConfigurationALCDescriptions</Operation>
+			</Mapping>
+
+			<Mapping name="6.14.2">
+				<TestData>
+					<UpdateDeviceConfigurationALCScheduler>
+						<ExecutionDateTime>2014-10-24T04:03:05.05Z</ExecutionDateTime>
+						<ALCSHCALCSConnectionSchedule>
+							<ActivateDeactivateSwitch index="1">
+								<ActivateSwitch/>
+							</ActivateDeactivateSwitch>
+							<SpecialDaysApplicability index="1" />
+							<DaysOfWeekApplicability>
+								<DayOfWeekApplicability>
+									<DayOfWeekID>Monday</DayOfWeekID>
+								</DayOfWeekApplicability>
+								<DayOfWeekApplicability>
+									<DayOfWeekID>Tuesday</DayOfWeekID>
+								</DayOfWeekApplicability>
+							</DaysOfWeekApplicability>
+							<ALCSScheduleDatesAndTime>
+								<SwitchTime>06:00:00.05Z</SwitchTime>
+								<StartDate>
+									<Year>
+										<NonSpecifiedYear/>
+									</Year>
+									<Month>
+										<SpecifiedMonth>01</SpecifiedMonth>
+									</Month>
+									<DayOfMonth>
+										<SpecifiedDayOfMonth>01</SpecifiedDayOfMonth>
+									</DayOfMonth>
+									<DayOfWeek>
+										<NonSpecifiedDayOfWeek/>
+									</DayOfWeek>
+								</StartDate>
+								<EndDate>
+									<Year>
+										<NonSpecifiedYear/>
+									</Year>
+									<Month>
+										<SpecifiedMonth>03</SpecifiedMonth>
+									</Month>
+									<DayOfMonth>
+										<SpecifiedDayOfMonth>31</SpecifiedDayOfMonth>
+									</DayOfMonth>
+									<DayOfWeek>
+										<NonSpecifiedDayOfWeek/>
+									</DayOfWeek>
+								</EndDate>
+							</ALCSScheduleDatesAndTime>
+						</ALCSHCALCSConnectionSchedule>
+						<ALCSHCALCSConnectionSchedule>
+							<ActivateDeactivateSwitch index="1">
+								<DeactivateSwitch/>
+							</ActivateDeactivateSwitch>
+							<SpecialDaysApplicability index="1" />
+							<DaysOfWeekApplicability>
+								<DayOfWeekApplicability>
+									<DayOfWeekID>Monday</DayOfWeekID>
+								</DayOfWeekApplicability>
+								<DayOfWeekApplicability>
+									<DayOfWeekID>Tuesday</DayOfWeekID>
+								</DayOfWeekApplicability>
+							</DaysOfWeekApplicability>
+							<ALCSScheduleDatesAndTime>
+								<SwitchTime>22:00:00.05Z</SwitchTime>
+								<StartDate>
+									<Year>
+										<NonSpecifiedYear/>
+									</Year>
+									<Month>
+										<SpecifiedMonth>01</SpecifiedMonth>
+									</Month>
+									<DayOfMonth>
+										<SpecifiedDayOfMonth>01</SpecifiedDayOfMonth>
+									</DayOfMonth>
+									<DayOfWeek>
+										<NonSpecifiedDayOfWeek/>
+									</DayOfWeek>
+								</StartDate>
+								<EndDate>
+									<Year>
+										<NonSpecifiedYear/>
+									</Year>
+									<Month>
+										<SpecifiedMonth>03</SpecifiedMonth>
+									</Month>
+									<DayOfMonth>
+										<SpecifiedDayOfMonth>31</SpecifiedDayOfMonth>
+									</DayOfMonth>
+									<DayOfWeek>
+										<NonSpecifiedDayOfWeek/>
+									</DayOfWeek>
+								</EndDate>
+							</ALCSScheduleDatesAndTime>
+						</ALCSHCALCSConnectionSchedule>
+						<ALCSHCALCSSpecialDays>
+							<ALCSHCALCSSpecialDay index="1">
+								<Year>
+									<NonSpecifiedYear/>
+								</Year>
+								<Month>
+									<SpecifiedMonth>12</SpecifiedMonth>
+								</Month>
+								<DayOfMonth>
+									<SpecifiedDayOfMonth>25</SpecifiedDayOfMonth>
+								</DayOfMonth>
+								<DayOfWeek>
+									<NonSpecifiedDayOfWeek/>
+								</DayOfWeek>
+							</ALCSHCALCSSpecialDay>
+						</ALCSHCALCSSpecialDays>
+						<SwitchTypeAndId index="1">
+							<ALCS/>
+						</SwitchTypeAndId>
+						<SwitchTypeAndId index="2">
+							<HCALCS>12-52-73-24-95-66-77-88</HCALCS>
+						</SwitchTypeAndId>
+					</UpdateDeviceConfigurationALCScheduler>
+				</TestData>
+				<Operation>UpdateDeviceConfigurationALCScheduler</Operation>
+			</Mapping>
+
+			<Mapping name="6.14.2i">
+				<TestData>
+					<UpdateDeviceConfigurationALCScheduler>
+						<EnGeneroLookupNode>
+							<KeyData>SCHED0001</KeyData>
+						</EnGeneroLookupNode>
+					</UpdateDeviceConfigurationALCScheduler>
+				</TestData>
+				<Operation>UpdateDeviceConfigurationALCScheduler</Operation>
+			</Mapping>
+
+			<Mapping name="6.15.1">
+				<TestData>
+					<UpdateSecurityCredentialsKRP>
+						<RemotePartyRole>Supplier</RemotePartyRole>
+						<ReplacementCertificates>
+							<SupplierOrNetworkOperatorCertificates>
+								<DigitalSigningCertificate>ZGVmYXVsdA==</DigitalSigningCertificate>
+								<KeyAgreementCertificate>ZGVmYXVsdA==</KeyAgreementCertificate>
+							</SupplierOrNetworkOperatorCertificates>
+						</ReplacementCertificates>
+						<CertificationPathCertificates>
+							<Certificate>ZGVmYXVsdA==</Certificate>
+						</CertificationPathCertificates>
+						<ApplyTimeBasedCPVChecks>true</ApplyTimeBasedCPVChecks>
+					</UpdateSecurityCredentialsKRP>
+				</TestData>
+				<Operation>UpdateSecurityCredentialsKRP</Operation>
+			</Mapping>
+
+			<Mapping name="6.15.1i">
+				<TestData>
+					<UpdateSecurityCredentialsKRP>
+						<RemotePartyRole>Supplier</RemotePartyRole>
+						<ReplacementCertificates>
+							<SupplierOrNetworkOperatorCertificates>
+								<DigitalSigningEnGeneroCertificateNode>
+									<Artefact>DS</Artefact>
+									<Identifier>0102</Identifier>
+									<Usage>sign</Usage>
+								</DigitalSigningEnGeneroCertificateNode>
+								<KeyAgreementEnGeneroCertificateNode>
+									<Artefact>KA</Artefact>
+									<Identifier>0102</Identifier>
+									<Usage>decrypt</Usage>
+								</KeyAgreementEnGeneroCertificateNode>
+							</SupplierOrNetworkOperatorCertificates>
+						</ReplacementCertificates>
+						<CertificationPathCertificates>
+							<EnGeneroCertificateNode>
+								<Artefact>Path</Artefact>
+								<Identifier>0102</Identifier>
+								<Usage>Confirm</Usage>
+							</EnGeneroCertificateNode>
+						</CertificationPathCertificates>
+						<ApplyTimeBasedCPVChecks>true</ApplyTimeBasedCPVChecks>
+					</UpdateSecurityCredentialsKRP>
+				</TestData>
+				<Operation>UpdateSecurityCredentialsKRP</Operation>
+			</Mapping>
+
+			<Mapping name="6.15.2">
+				<TestData>
+					<UpdateSecurityCredentialsDevice>
+						<DeviceCertificate>ZGVmYXVsdA==</DeviceCertificate>
+					</UpdateSecurityCredentialsDevice>
+				</TestData>
+				<Operation>UpdateSecurityCredentialsDevice</Operation>
+			</Mapping>
+
+			<Mapping name="6.15.2i">
+				<TestData>
+					<UpdateSecurityCredentialsDevice>
+						<EnGeneroCertificateNode>
+							<Artefact>DS</Artefact>
+							<Identifier>0102</Identifier>
+							<Usage>SIGN</Usage>
+						</EnGeneroCertificateNode>
+					</UpdateSecurityCredentialsDevice>
+				</TestData>
+				<Operation>UpdateSecurityCredentialsDevice</Operation>
+			</Mapping>
+
+			<Mapping name="6.17">
+				<TestData>
+					<IssueSecurityCredentials>
+						<CredentialType>Digital Signature</CredentialType>
+					</IssueSecurityCredentials>
+				</TestData>
+				<Operation>IssueSecurityCredentials</Operation>
+			</Mapping>
+
+			<Mapping name="6.18.1">
+				<TestData>
+					<SetMaximumDemandConfigurableTimePeriod>
+						<ExecutionDateTime>2015-02-24T04:03:05.05Z</ExecutionDateTime>
+						<MaximumDemandTimePeriodSchedule>
+							<StartTime>22:00:00.05Z</StartTime>
+							<EndTime>08:00:00.05Z</EndTime>
+						</MaximumDemandTimePeriodSchedule>
+					</SetMaximumDemandConfigurableTimePeriod>
+				</TestData>
+				<Operation>SetMaximumDemandConfigurableTimePeriod</Operation>
+			</Mapping>
+
+
+			<Mapping name="6.18.2">
+				<TestData>
+					<ResetMaximumDemandRegisters>
+						<ExecutionDateTime>2014-10-24T04:03:05.05Z</ExecutionDateTime>
+						<MaxDemandActivePowerImportValue/>
+						<MaxDemandActivePowerExportValue/>
+						<MaxDemandConfigTimeActivePowerImportValue/>
+					</ResetMaximumDemandRegisters>
+				</TestData>
+				<Operation>ResetMaximumDemandRegisters</Operation>
+			</Mapping>
+
+			<Mapping name="6.20.1">
+				<TestData>
+					<SetDeviceConfigurationImportMPxN>
+						<ImportMPANs>
+							<ImportMPAN>1234567890123</ImportMPAN>
+						</ImportMPANs>
+					</SetDeviceConfigurationImportMPxN>
+				</TestData>
+				<Operation>SetDeviceConfigurationImportMPxN</Operation>
+			</Mapping>
+
+			<Mapping name="6.20.2">
+				<TestData>
+					<SetDeviceConfigurationExportMPAN>
+						<ExportMPAN>0123456789012</ExportMPAN>
+					</SetDeviceConfigurationExportMPAN>
+				</TestData>
+				<Operation>SetDeviceConfigurationExportMPAN</Operation>
+			</Mapping>
+
+			<Mapping name="6.21">
+				<TestData>
+					<RequestHandoverOfDCCControlledDevice>
+						<RemotePartyRole>Supplier</RemotePartyRole>
+						<RemotePartyFloorSeqNumber>23456</RemotePartyFloorSeqNumber>
+						<ReplacementCertificates>
+							<DigitalSigningCertificate>ZGVmYXVsdA==</DigitalSigningCertificate>
+							<KeyAgreementCertificate>ZGVmYXVsdA==</KeyAgreementCertificate>
+						</ReplacementCertificates>
+						<CertificationPathCertificates>
+							<Certificate>ZGVmYXVsdA==</Certificate>
+						</CertificationPathCertificates>
+						<ApplyTimeBasedCPVChecks>true</ApplyTimeBasedCPVChecks>
+					</RequestHandoverOfDCCControlledDevice>
+				</TestData>
+				<Operation>RequestHandoverOfDCCControlledDevice</Operation>
+			</Mapping>
+
+			<Mapping name="6.21i">
+				<TestData>
+					<RequestHandoverOfDCCControlledDevice>
+						<RemotePartyRole>Supplier</RemotePartyRole>
+						<RemotePartyFloorSeqNumber>23456</RemotePartyFloorSeqNumber>
+						<ReplacementCertificates>
+							<DigitalSigningEnGeneroCertificateNode>
+								<Artefact>DS</Artefact>
+								<Identifier>0102</Identifier>
+								<Usage>sign</Usage>
+							</DigitalSigningEnGeneroCertificateNode>
+							<KeyAgreementEnGeneroCertificateNode>
+								<Artefact>KA</Artefact>
+								<Identifier>0102</Identifier>
+								<Usage>decrypt</Usage>
+							</KeyAgreementEnGeneroCertificateNode>
+						</ReplacementCertificates>
+						<CertificationPathCertificates>
+							<EnGeneroCertificateNode>
+								<Artefact>Path</Artefact>
+								<Identifier>0102</Identifier>
+								<Usage>Confirm</Usage>
+							</EnGeneroCertificateNode>
+						</CertificationPathCertificates>
+						<ApplyTimeBasedCPVChecks>true</ApplyTimeBasedCPVChecks>
+					</RequestHandoverOfDCCControlledDevice>
+				</TestData>
+				<Operation>RequestHandoverOfDCCControlledDevice</Operation>
+			</Mapping>
+
+			<Mapping name="6.22e">
+				<TestData>
+					<ConfigureAlertBehaviour>
+						<ElectricitySupplierAlerts>
+							<SupplierESMECommon>
+								<x81AB>Enable</x81AB>
+								<x81BC>Disable</x81BC>
+							</SupplierESMECommon>
+						</ElectricitySupplierAlerts>
+					</ConfigureAlertBehaviour>
+				</TestData>
+				<Operation>ConfigureAlertBehaviour</Operation>
+			</Mapping>
+
+			<Mapping name="6.22g">
+				<TestData>
+					<ConfigureAlertBehaviour>
+						<GasSupplierAlerts>
+							<x81B2>Enable</x81B2>
+							<x81C5>Disable</x81C5>
+						</GasSupplierAlerts>
+					</ConfigureAlertBehaviour>
+				</TestData>
+				<Operation>ConfigureAlertBehaviour</Operation>
+			</Mapping>
+
+			<Mapping name="6.23.1">
+				<TestData>
+					<UpdateSecurityCredentialsCoS>
+						<SupplierFloorSeqNumber>1234567</SupplierFloorSeqNumber>
+						<SupplierPrepaymentTopUpFloorSeqNumber>500</SupplierPrepaymentTopUpFloorSeqNumber>
+						<SupplierReplacementCertificates>
+							<DigitalSigningCertificate>ZGVmYXVsdA==</DigitalSigningCertificate>
+							<KeyAgreementCertificate>ZGVmYXVsdA==</KeyAgreementCertificate>
+							<KeyAgreementTopUpCertificate>ZGVmYXVsdA==</KeyAgreementTopUpCertificate>
+						</SupplierReplacementCertificates>
+						<CertificationPathCertificates>
+							<Certificate>ZGVmYXVsdA==</Certificate>
+						</CertificationPathCertificates>
+						<ApplyTimeBasedCPVChecks>true</ApplyTimeBasedCPVChecks>
+						<ImportMPxN>1234567890123</ImportMPxN>
+					</UpdateSecurityCredentialsCoS>
+				</TestData>
+				<Operation>UpdateSecurityCredentialsCoS</Operation>
+			</Mapping>
+
+			<Mapping name="6.23.1i">
+				<TestData>
+					<UpdateSecurityCredentialsCoS>
+						<SupplierFloorSeqNumber>1234567</SupplierFloorSeqNumber>
+						<SupplierPrepaymentTopUpFloorSeqNumber>500</SupplierPrepaymentTopUpFloorSeqNumber>
+						<SupplierReplacementCertificates>
+							<DigitalSigningEnGeneroCertificateNode>
+								<Artefact>DS</Artefact>
+								<Identifier>0102</Identifier>
+								<Usage>sign</Usage>
+							</DigitalSigningEnGeneroCertificateNode>
+							<KeyAgreementEnGeneroCertificateNode>
+								<Artefact>KA</Artefact>
+								<Identifier>0102</Identifier>
+								<Usage>decrypt</Usage>
+							</KeyAgreementEnGeneroCertificateNode>
+							<KeyAgreementTopUpEnGeneroCertificateNode>
+								<Artefact>KA</Artefact>
+								<Identifier>0102</Identifier>
+								<Usage>decrypt</Usage>
+							</KeyAgreementTopUpEnGeneroCertificateNode>
+						</SupplierReplacementCertificates>
+						<CertificationPathCertificates>
+							<EnGeneroCertificateNode>
+								<Artefact>Path</Artefact>
+								<Identifier>0102</Identifier>
+								<Usage>Confirm</Usage>
+							</EnGeneroCertificateNode>
+						</CertificationPathCertificates>
+						<ApplyTimeBasedCPVChecks>true</ApplyTimeBasedCPVChecks>
+						<ImportMPxN>1234567890123</ImportMPxN>
+					</UpdateSecurityCredentialsCoS>
+				</TestData>
+				<Operation>UpdateSecurityCredentialsCoS</Operation>
+			</Mapping>
+
+			<Mapping name="6.24.1">
+				<TestData>
+					<RetrieveDeviceSecurityCredentialsKRP>
+						<RemotePartyRole>Supplier</RemotePartyRole>
+					</RetrieveDeviceSecurityCredentialsKRP>
+				</TestData>
+				<Operation>RetrieveDeviceSecurityCredentialsKRP</Operation>
+			</Mapping>
+
+			<Mapping name="6.24.2">
+				<TestData>
+					<RetrieveDeviceSecurityCredentialsDevice>
+						<CredentialType>Digital Signature</CredentialType>
+					</RetrieveDeviceSecurityCredentialsDevice>
+				</TestData>
+				<Operation>RetrieveDeviceSecurityCredentialsDevice</Operation>
+			</Mapping>
+
+			<Mapping name="6.25">
+				<TestData>
+					<SetElectricitySupplyTamperState>
+						<SupplyTamperState>Locked</SupplyTamperState>
+					</SetElectricitySupplyTamperState >
+				</TestData>
+				<Operation>SetElectricitySupplyTamperState</Operation>
+			</Mapping>
+
+			<Mapping name="7.1">
+				<TestData>
+					<EnableSupply/>
+				</TestData>
+				<Operation>EnableSupply</Operation>
+			</Mapping>
+
+
+			<Mapping name="7.2">
+				<TestData>
+					<DisableSupply/>
+				</TestData>
+				<Operation>DisableSupply</Operation>
+			</Mapping>
+
+			<Mapping name="7.3">
+				<TestData>
+					<ArmSupply/>
+				</TestData>
+				<Operation>ArmSupply</Operation>
+			</Mapping>
+
+			<Mapping name="7.4">
+				<TestData>
+					<ReadSupplyStatus/>
+				</TestData>
+				<Operation>ReadSupplyStatus</Operation>
+			</Mapping>
+
+			<Mapping name="7.5">
+				<TestData>
+					<ActivateAuxiliaryLoad>
+						<ActivateALCSHCALCS index="3">
+							<Duration>60</Duration>
+						</ActivateALCSHCALCS>
+					</ActivateAuxiliaryLoad>
+				</TestData>
+				<Operation>ActivateAuxiliaryLoad</Operation>
+			</Mapping>
+
+			<Mapping name="7.5i">
+				<TestData>
+					<ActivateAuxiliaryLoad>
+						<EnGeneroLookupNode>
+							<KeyData>ALCHS0001</KeyData>
+						</EnGeneroLookupNode>
+					</ActivateAuxiliaryLoad>
+				</TestData>
+				<Operation>ActivateAuxiliaryLoad</Operation>
+			</Mapping>
+
+			<Mapping name="7.6">
+				<TestData>
+					<DeactivateAuxiliaryLoad>
+						<DeactivateALCSHCALCS index="3">
+							<Duration>60</Duration>
+						</DeactivateALCSHCALCS>
+					</DeactivateAuxiliaryLoad>
+				</TestData>
+				<Operation>DeactivateAuxiliaryLoad</Operation>
+			</Mapping>
+
+			<Mapping name="7.6i">
+				<TestData>
+					<DeactivateAuxiliaryLoad>
+						<EnGeneroLookupNode>
+							<KeyData>ALCHS0001</KeyData>
+						</EnGeneroLookupNode>
+					</DeactivateAuxiliaryLoad>
+				</TestData>
+				<Operation>DeactivateAuxiliaryLoad</Operation>
+			</Mapping>
+
+			<Mapping name="7.7.1">
+				<TestData>
+					<ReadALCSData/>
+				</TestData>
+				<Operation>ReadALCSData</Operation>
+			</Mapping>
+
+			<Mapping name="7.8">
+				<TestData>
+					<ResetAuxiliaryLoad>
+						<ResetALCSHCALCS index="3" />
+					</ResetAuxiliaryLoad>
+				</TestData>
+				<Operation>ResetAuxiliaryLoad</Operation>
+			</Mapping>
+
+			<Mapping name="7.8i">
+				<TestData>
+					<ResetAuxiliaryLoad>
+						<EnGeneroLookupNode>
+							<KeyData>ALCHS0001</KeyData>
+						</EnGeneroLookupNode>
+					</ResetAuxiliaryLoad>
+				</TestData>
+				<Operation>ResetAuxiliaryLoad</Operation>
+			</Mapping>
+
+			<Mapping name="7.9">
+				<TestData>
+					<AddAuxiliaryLoadToBoostButton>
+						<AddToBoostButton index="1">false</AddToBoostButton>
+						<AddToBoostButton index="2">true</AddToBoostButton>
+						<AddToBoostButton index="3">false</AddToBoostButton>
+						<AddToBoostButton index="4">false</AddToBoostButton>
+						<AddToBoostButton index="5">false</AddToBoostButton>
+					</AddAuxiliaryLoadToBoostButton>
+				</TestData>
+				<Operation>AddAuxiliaryLoadToBoostButton</Operation>
+			</Mapping>
+
+			<Mapping name="7.9i">
+				<TestData>
+					<AddAuxiliaryLoadToBoostButton>
+						<EnGeneroLookupNode>
+							<KeyData>ALCHS0001</KeyData>
+						</EnGeneroLookupNode>
+					</AddAuxiliaryLoadToBoostButton>
+				</TestData>
+				<Operation>AddAuxiliaryLoadToBoostButton</Operation>
+			</Mapping>
+
+			<Mapping name="7.10">
+				<TestData>
+					<RemoveAuxiliaryLoadFromBoostButton>
+						<RemoveFromBoostButton index="1">true</RemoveFromBoostButton>
+						<RemoveFromBoostButton index="2">false</RemoveFromBoostButton>
+						<RemoveFromBoostButton index="3">true</RemoveFromBoostButton>
+						<RemoveFromBoostButton index="4">true</RemoveFromBoostButton>
+						<RemoveFromBoostButton index="5">true</RemoveFromBoostButton>
+					</RemoveAuxiliaryLoadFromBoostButton>
+				</TestData>
+				<Operation>RemoveAuxiliaryLoadFromBoostButton</Operation>
+			</Mapping>
+
+			<Mapping name="7.10i">
+				<TestData>
+					<RemoveAuxiliaryLoadFromBoostButton>
+						<EnGeneroLookupNode>
+							<KeyData>ALCHS0001</KeyData>
+						</EnGeneroLookupNode>
+					</RemoveAuxiliaryLoadFromBoostButton>
+				</TestData>
+				<Operation>RemoveAuxiliaryLoadFromBoostButton</Operation>
+			</Mapping>
+
+			<Mapping name="7.11">
+				<TestData>
+					<ReadBoostButtonDetails>
+						<ReadLogPeriod>
+							<StartDateTime>2013-12-01T00:00:00.05Z</StartDateTime>
+							<EndDateTime>2013-12-31T23:59:59.05Z</EndDateTime>
+						</ReadLogPeriod>
+					</ReadBoostButtonDetails>
+				</TestData>
+				<Operation>ReadBoostButtonDetails</Operation>
+			</Mapping>
+
+			<Mapping name="7.12">
+				<TestData>
+					<SetRandomisedOffsetLimit>
+						<RandomisedOffsetLimit>1250</RandomisedOffsetLimit>
+					</SetRandomisedOffsetLimit>
+				</TestData>
+				<Operation>SetRandomisedOffsetLimit</Operation>
+			</Mapping>
+
+			<Mapping name="8.1.1">
+				<TestData>
+					<CommissionDeviceSynchroniseClock>
+						<CurrentDateTime>2014-06-03T07:09:12.05Z</CurrentDateTime>
+						<TolerancePeriod>50</TolerancePeriod>
+					</CommissionDeviceSynchroniseClock>
+				</TestData>
+				<Operation>SynchroniseClock</Operation>
+			</Mapping>
+
+			<Mapping name="8.2">
+				<TestData>
+					<ReadInventory>
+						<MPxN>1234567890123</MPxN>
+					</ReadInventory>
+				</TestData>
+				<Operation>ReadInventory</Operation>
+			</Mapping>
+
+			<Mapping name="8.3">
+				<TestData>
+					<DecommissionDevice/>
+				</TestData>
+				<Operation>DecommissionDevice</Operation>
+			</Mapping>
+
+			<Mapping name="8.4">
+				<TestData>
+					<UpdateInventory>
+						<UpdateMPxN>
+							<ImportMPxN>1234567890123</ImportMPxN>
+						</UpdateMPxN>
+					</UpdateInventory>
+				</TestData>
+				<Operation>UpdateInventory</Operation>
+			</Mapping>
+
+			<Mapping name="8.5">
+				<TestData>
+					<ServiceOptOut>
+						<ExecutionDateTime>2014-10-03T00:00:00.05Z</ExecutionDateTime>
+						<ACBFloorSeqNumber>1234567</ACBFloorSeqNumber>
+						<ReplacementCertificates>
+							<KeyAgreementCertificate>ZGVmYXVsdA==</KeyAgreementCertificate>
+						</ReplacementCertificates>
+						<CertificationPathCertificates>
+							<Certificate>ZGVmYXVsdA==</Certificate>
+						</CertificationPathCertificates>
+						<ApplyTimeBasedCPVChecks>true</ApplyTimeBasedCPVChecks>
+					</ServiceOptOut>
+				</TestData>
+				<Operation>ServiceOptOut</Operation>
+			</Mapping>
+
+			<Mapping name="8.5i">
+				<TestData>
+					<ServiceOptOut>
+						<ExecutionDateTime>2014-10-03T00:00:00.05Z</ExecutionDateTime>
+						<ACBFloorSeqNumber>1234567</ACBFloorSeqNumber>
+						<ReplacementCertificates>
+							<KeyAgreementEnGeneroCertificateNode>
+								<Artefact>KA</Artefact>
+								<Identifier>0102</Identifier>
+								<Usage>decrypt</Usage>
+							</KeyAgreementEnGeneroCertificateNode>
+						</ReplacementCertificates>
+						<CertificationPathCertificates>
+							<EnGeneroCertificateNode>
+								<Artefact>Path</Artefact>
+								<Identifier>0102</Identifier>
+								<Usage>Confirm</Usage>
+							</EnGeneroCertificateNode>
+						</CertificationPathCertificates>
+						<ApplyTimeBasedCPVChecks>true</ApplyTimeBasedCPVChecks>
+					</ServiceOptOut>
+				</TestData>
+				<Operation>ServiceOptOut</Operation>
+			</Mapping>
+
+			<Mapping name="8.6">
+				<TestData>
+					<ServiceOptIn>
+						<DeviceType>ESME</DeviceType>
+						<MPxNs>
+							<ImportMPxN>1234567890123</ImportMPxN>
+						</MPxNs>
+						<OptInDate>2014-11-04Z</OptInDate>
+					</ServiceOptIn>
+				</TestData>
+				<Operation>ServiceOptIn</Operation>
+			</Mapping>
+
+			<Mapping name="8.7.1">
+				<TestData>
+					<JoinServiceCritical>
+						<OtherDeviceID>99-22-AA-BB-CC-DD-EE-FF</OtherDeviceID>
+					</JoinServiceCritical>
+				</TestData>
+				<Operation>JoinServiceCritical</Operation>
+			</Mapping>
+
+			<Mapping name="8.7.2">
+				<TestData>
+					<JoinServiceNonCritical>
+						<OtherDeviceID>99-11-AA-BB-CC-DD-EE-FF</OtherDeviceID>
+					</JoinServiceNonCritical>
+				</TestData>
+				<Operation>JoinServiceNonCritical</Operation>
+			</Mapping>
+
+			<Mapping name="8.8.1">
+				<TestData>
+					<UnjoinServiceCritical>
+						<OtherDeviceID>99-22-AA-BB-CC-DD-EE-FF</OtherDeviceID>
+					</UnjoinServiceCritical>
+				</TestData>
+				<Operation>UnjoinServiceCritical</Operation>
+			</Mapping>
+
+			<Mapping name="8.8.2">
+				<TestData>
+					<UnjoinServiceNonCritical>
+						<OtherDeviceID>99-11-AA-BB-CC-DD-EE-FF</OtherDeviceID>
+					</UnjoinServiceNonCritical>
+				</TestData>
+				<Operation>UnjoinServiceNonCritical</Operation>
+			</Mapping>
+
+			<Mapping name="8.9">
+				<TestData>
+					<ReadDeviceLog/>
+				</TestData>
+				<Operation>ReadDeviceLog</Operation>
+			</Mapping>
+
+			<Mapping name="8.11">
+				<TestData>
+					<UpdateHANDeviceLog>
+						<RequestType>Add</RequestType>
+						<AddDeviceToCHFWhitelist>
+							<JoinTimePeriod>600</JoinTimePeriod>
+							<InstallCode>0123456789ABCDEF0123456789ABCDEF</InstallCode>
+							<ImportMPxN>1234567890123</ImportMPxN>
+						</AddDeviceToCHFWhitelist>
+					</UpdateHANDeviceLog>
+				</TestData>
+				<Operation>UpdateHANDeviceLog</Operation>
+			</Mapping>
+
+			<Mapping name="8.12.1">
+				<TestData>
+					<RestoreHANDeviceLog>
+						<OldCHFID>13-35-AA-BB-CC-DD-EE-FF</OldCHFID>
+					</RestoreHANDeviceLog>
+				</TestData>
+				<Operation>RestoreHANDeviceLog</Operation>
+			</Mapping>
+
+			<Mapping name="8.12.2">
+				<TestData>
+					<RestoreGPFDeviceLog>
+						<OldGPFID>13-35-AA-BB-CC-DD-EE-FF</OldGPFID>
+					</RestoreGPFDeviceLog>
+				</TestData>
+				<Operation>RestoreGPFDeviceLog</Operation>
+			</Mapping>
+
+			<Mapping name="8.13">
+				<TestData>
+					<ReturnLocalCommandResponse>
+						<OriginalRequestID>11-22-33-44-55-66-77-88:99-00-AA-BB-CC-DD-EE-FF:50</OriginalRequestID>
+						<DeviceGBCSResponse>ZGVmYXVsdA==</DeviceGBCSResponse>
+					</ReturnLocalCommandResponse>
+				</TestData>
+				<Operation>ReturnLocalCommandResponse</Operation>
+			</Mapping>
+
+			<Mapping name="8.14.1">
+				<TestData>
+					<CHFInstallSuccessSMWAN>
+						<CHFInstallType>New CHF Install</CHFInstallType>
+						<InstallDateTime>2006-05-04T18:13:51.05Z</InstallDateTime>
+						<UserRefID>UserRefID0</UserRefID>
+						<MPxN>1234567890123</MPxN>
+						<AerialInstall>false</AerialInstall>
+						<CHFLocation>Outside Premises</CHFLocation>
+						<AdditionalInformation>AdditionalInformation0</AdditionalInformation>
+					</CHFInstallSuccessSMWAN>
+				</TestData>
+				<Operation>CHFInstallSuccessSMWAN</Operation>
+			</Mapping>
+
+			<Mapping name="8.14.2">
+				<TestData>
+					<CHFInstallSuccessNoSMWAN>
+						<CHFInstallType>CHF Install - no SM WAN</CHFInstallType>
+						<InstallDateTime>2006-05-04T18:13:51.05Z</InstallDateTime>
+						<UserRefID>UserRefID0</UserRefID>
+						<MPxN>7012345678999</MPxN>
+						<AerialInstall>false</AerialInstall>
+						<CHFLocation>Outside Premises</CHFLocation>
+						<PremiseType>High Rise Apartment (MDU &gt; 5 floors)</PremiseType>
+						<MetalObstructionCheck>false</MetalObstructionCheck>
+						<ConnectivityObstructionCheck>false</ConnectivityObstructionCheck>
+						<SharedObstructionCheck>false</SharedObstructionCheck>
+						<AdditionalInformation>AdditionalInformation0</AdditionalInformation>
+					</CHFInstallSuccessNoSMWAN>
+				</TestData>
+				<Operation>CHFInstallSuccessSMWAN</Operation>
+			</Mapping>
+
+			<Mapping name="8.14.3">
+				<TestData>
+					<CHFFaultReturn>
+						<CHFFaultReturnType>Fault identified prior to installation</CHFFaultReturnType>
+						<UserRefDateTime>2014-05-04T18:13:51.05Z</UserRefDateTime>
+						<UserRefID>UserRefID0</UserRefID>
+						<OtherDeviceID>00-AA-BB-CC-DD-EE-FF-00</OtherDeviceID>
+						<IncidentReference>INC000000000001</IncidentReference>
+						<CHFConnectionMethod>Hot-shoe</CHFConnectionMethod>
+						<CHFFaultReason>Damaged case</CHFFaultReason>
+						<AdditionalInformation>AdditionalInformation0</AdditionalInformation>
+					</CHFFaultReturn>
+				</TestData>
+				<Operation>CHFFaultReturn</Operation>
+			</Mapping>
+
+			<Mapping name="8.14.4">
+				<TestData>
+					<CHFNoFaultReturn>
+						<CHFNoFaultReturnType>No Fault Return (dual supplier HAN variant replacement)</CHFNoFaultReturnType>
+						<UserRefDateTime>2014-05-04T18:13:51.05Z</UserRefDateTime>
+						<UserRefID>UserRefID0</UserRefID>
+						<IncidentReference>INC000000000001</IncidentReference>
+						<AdditionalInformation>AdditionalInformation0</AdditionalInformation>
+					</CHFNoFaultReturn>
+				</TestData>
+				<Operation>CHFFaultReturn</Operation>
+			</Mapping>
+
+			<Mapping name="9.1">
+				<TestData>
+					<RequestCustomerIdentificationNumber/>
+				</TestData>
+				<Operation>RequestCustomerIdentificationNumber</Operation>
+			</Mapping>
+
+			<Mapping name="9.1">
+				<TestData>
+					<RequestCustomerIdentificationNumber/>
+				</TestData>
+				<Operation>RequestCustomerIdentificationNumber</Operation>
+			</Mapping>
+
+
+			<Mapping name="11.1">
+				<TestData>
+					<UpdateFirmware>
+						<FirmwareImage>ZGVmYXVsdA==</FirmwareImage>
+						<FirmwareVersion>1100EEFF</FirmwareVersion>
+						<DeviceIDList>11-00-AA-BB-CC-DD-EE-FF,22-00-AA-BB-CC-DD-EE-FF</DeviceIDList>
+					</UpdateFirmware>
+				</TestData>
+				<Operation>UpdateFirmware</Operation>
+			</Mapping>
+
+			<Mapping name="11.1i">
+				<TestData>
+					<UpdateFirmware>
+						<EnGeneroLookupNode>
+							<KeyData>FIRMWARE0001</KeyData>
+						</EnGeneroLookupNode>
+						<FirmwareVersion>1100EEFF</FirmwareVersion>
+						<DeviceIDList>11-00-AA-BB-CC-DD-EE-FF,22-00-AA-BB-CC-DD-EE-FF</DeviceIDList>
+					</UpdateFirmware>
+				</TestData>
+				<Operation>UpdateFirmware</Operation>
+			</Mapping>
+
+			<Mapping name="11.2">
+				<TestData>
+					<ReadFirmwareVersion/>
+				</TestData>
+				<Operation>ReadFirmwareVersion</Operation>
+			</Mapping>
+
+			<Mapping name="11.3">
+				<TestData>
+					<ActivateFirmware>
+						<FirmwareHash>0123456789ABCDEF0123456789ABCDEF0123456789ABCDEF0123456789ABCDEF</FirmwareHash>
+					</ActivateFirmware>
+				</TestData>
+				<Operation>ActivateFirmware</Operation>
+			</Mapping>
+
+			<Mapping name="11.3i">
+				<TestData>
+					<ActivateFirmware>
+						<EnGeneroLookupNode>
+							<KeyData>FIRMWAREHASH0001</KeyData>
+						</EnGeneroLookupNode>
+					</ActivateFirmware>
+				</TestData>
+				<Operation>ActivateFirmware</Operation>
+			</Mapping>
+
+			<Mapping name="12.1">
+				<TestData>
+					<RequestWANMatrix>
+						<PartialAddress>
+							<PostCode>KT22 7LP</PostCode>
+							<AddressIdentifier>17</AddressIdentifier>
+						</PartialAddress>
+					</RequestWANMatrix>
+				</TestData>
+				<Operation>RequestWANMatrix</Operation>
+			</Mapping>
+
+			<Mapping name="12.2">
+				<TestData>
+					<DevicePrenotification>
+						<DeviceManufacturer>AB02</DeviceManufacturer>
+						<DeviceModel>D7A50E04</DeviceModel>
+						<DeviceType>ESME</DeviceType>
+						<SMETSCHTSVersion>V1.58</SMETSCHTSVersion>
+						<FirmwareVersion>1100EEFF</FirmwareVersion>
+						<ESMEVariant>A</ESMEVariant>
+					</DevicePrenotification>
+				</TestData>
+				<Operation>DevicePrenotification</Operation>
+			</Mapping>
+
+			<Mapping name="14.1">
+				<TestData>
+					<RecordNetworkDataGAS/>
+				</TestData>
+				<Operation>RecordNetworkDataGAS</Operation>
+			</Mapping>
+
+
+			<Mapping name="ORC_COS">
+				<TestData>
+					<ORCHChangeOfSupplier>
+						<SecondaryImportMPAN>1234567890123</SecondaryImportMPAN>
+						<PaymentMode>Prepay</PaymentMode>
+						<TariffEnGeneroLookupNode>
+							<KeyData>Tariff1700</KeyData>
+						</TariffEnGeneroLookupNode>
+						<PriceEnGeneroLookupNode>
+							<KeyData>PriceElement1700</KeyData>
+						</PriceEnGeneroLookupNode>
+						<SecondaryTariffEnGeneroLookupNode>
+							<KeyData>Secondary123</KeyData>
+						</SecondaryTariffEnGeneroLookupNode>
+						<DebtCollectionEnGeneroLookupNode>
+							<KeyData>DebtProfile001</KeyData>
+						</DebtCollectionEnGeneroLookupNode>
+						<PrepaymentEnGeneroLookupNode>
+							<KeyData>Prepayment001</KeyData>
+						</PrepaymentEnGeneroLookupNode>
+
+						<ReadLogPeriod>
+							<StartDateTime>2014-01-01T00:00:00.05Z</StartDateTime>
+							<EndDateTime>2014-01-31T23:59:59.05Z</EndDateTime>
+						</ReadLogPeriod>
+						<DefaultConfigurationEnGeneroLookupNode>
+							<KeyData>COS_ACCELERO_001</KeyData>
+						</DefaultConfigurationEnGeneroLookupNode>
+					</ORCHChangeOfSupplier>
+				</TestData>
+				<Operation>ORCHChangeOfSupplier</Operation>
+			</Mapping>
+
+			<Mapping name="ORC_COT">
+				<TestData>
+					<ORCHChangeOfTenant>
+						<PaymentMode>Prepay</PaymentMode>
+						<TariffEnGeneroLookupNode>
+							<KeyData>Tariff1700</KeyData>
+						</TariffEnGeneroLookupNode>
+						<PriceEnGeneroLookupNode>
+							<KeyData>PriceElement1700</KeyData>
+						</PriceEnGeneroLookupNode>
+						<SecondaryTariffEnGeneroLookupNode>
+							<KeyData>Secondary123</KeyData>
+						</SecondaryTariffEnGeneroLookupNode>
+						<DebtCollectionEnGeneroLookupNode>
+							<KeyData>DebtProfile001</KeyData>
+						</DebtCollectionEnGeneroLookupNode>
+						<PrepaymentEnGeneroLookupNode>
+							<KeyData>Prepayment001</KeyData>
+						</PrepaymentEnGeneroLookupNode>
+
+						<ExecutionDateTime>2014-01-01T00:00:00.05Z</ExecutionDateTime>
+						<COTDateTime>2014-01-31T23:59:59.05Z</COTDateTime>
+						<DefaultConfigurationEnGeneroLookupNode>
+							<KeyData>COT_ACCELERO_001</KeyData>
+						</DefaultConfigurationEnGeneroLookupNode>
+					</ORCHChangeOfTenant>
+				</TestData>
+				<Operation>ORCHChangeOfTenant</Operation>
+			</Mapping>
+
+			<Mapping name="ORC_IC">
+				<TestData>
+					<ORCHInstallAndCommission>
+						<DeviceID>AA-22-33-44-55-66-77-88</DeviceID>
+						<CHID>AA-22-33-44-55-66-77-88</CHID>
+						<InstallCode>0123456789ABCDEF0123456789ABCDEF</InstallCode>
+						<DeviceType>ESME</DeviceType>
+						<PaymentMode>Prepay</PaymentMode>
+						<SecondaryImportMPAN>1234567890123</SecondaryImportMPAN>
+						<TariffEnGeneroLookupNode>
+							<KeyData>Tariff1700</KeyData>
+						</TariffEnGeneroLookupNode>
+						<PriceEnGeneroLookupNode>
+							<KeyData>PriceElement1700</KeyData>
+						</PriceEnGeneroLookupNode>
+						<SecondaryTariffEnGeneroLookupNode>
+							<KeyData>Secondary123</KeyData>
+						</SecondaryTariffEnGeneroLookupNode>
+						<DebtCollectionEnGeneroLookupNode>
+							<KeyData>DebtProfile001</KeyData>
+						</DebtCollectionEnGeneroLookupNode>
+						<PrepaymentEnGeneroLookupNode>
+							<KeyData>Prepayment001</KeyData>
+						</PrepaymentEnGeneroLookupNode>
+
+						<UPRN>123451234512</UPRN>
+						<PostCode>AA1BB1</PostCode>
+						<AddressIdentifier>123 August Lane</AddressIdentifier>
+						<ExecutionDateTime>2014-01-01T00:00:00.05Z</ExecutionDateTime>
+						<DefaultConfigurationEnGeneroLookupNode>
+							<KeyData>IC_ACCELERO_001</KeyData>
+						</DefaultConfigurationEnGeneroLookupNode>
+					</ORCHInstallAndCommission>
+				</TestData>
+				<Operation>ORCHInstallAndCommission</Operation>
+			</Mapping>
+
+			<Mapping name="ORC_PriceAndTariff">
+				<TestData>
+					<ORCHSetPriceAndTariff>
+						<TariffEnGeneroLookupNode>
+							<KeyData>Tariff1700</KeyData>
+						</TariffEnGeneroLookupNode>
+						<PriceEnGeneroLookupNode>
+							<KeyData>PriceElement1700</KeyData>
+						</PriceEnGeneroLookupNode>
+						<SecondaryTariffEnGeneroLookupNode>
+							<KeyData>Secondary123</KeyData>
+						</SecondaryTariffEnGeneroLookupNode>
+
+					</ORCHSetPriceAndTariff>
+				</TestData>
+				<Operation>ORCHSetPriceAndTariff</Operation>
+			</Mapping>
+
+			<Mapping name="ORC_DecommissionDevice">
+				<TestData>
+					<ORCHDecommissionDevice/>
+				</TestData>
+				<Operation>ORCHDecommissionDevice</Operation>
+			</Mapping>
+
+			<Mapping name="ORCH_ORCHJoinNewDevice">
+				<TestData>
+					<ORCHJoinNewDevice>
+						<DeviceID>AA-22-33-44-55-66-77-88</DeviceID>
+						<InstallCode>0123456789ABCDEF0123456789ABCDEF</InstallCode>
+						<DefaultConfigurationEnGeneroLookupNode>
+							<KeyData>JOIN_ACCELERO_001</KeyData>
+						</DefaultConfigurationEnGeneroLookupNode>
+					</ORCHJoinNewDevice>
+
+				</TestData>
+				<Operation>ORCHJoinNewDevice</Operation>
+			</Mapping>
+
+			<Mapping name="ORCH_DeviceModelConfiguration">
+				<TestData>
+					<ORCHDeviceModelConfiguration>
+						<DefaultConfigurationEnGeneroLookupNode>
+							<KeyData>DMC_ACCELERO_001</KeyData>
+						</DefaultConfigurationEnGeneroLookupNode>
+					</ORCHDeviceModelConfiguration>
+				</TestData>
+				<Operation>ORCHDeviceModelConfiguration</Operation>
+			</Mapping>
+
+		</Mappings>
+	</binding>
+</bindings>
